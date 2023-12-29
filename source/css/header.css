@@ -1,0 +1,40 @@
+.header {
+    height: 60px;
+
+    background-color: #ffffff;
+    border-bottom: 1px solid #acacac;
+    font-family: 'Arial', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-title {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.button--header {
+    background-color: #fff;
+    color: #3498db;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.button--header:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+

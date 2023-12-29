@@ -1,0 +1,21 @@
+div#gameContainer {
+    background: transparent !important;
+    position: absolute;
+    background: rgb(58, 58, 58)fff;
+}
+
+div#gameContainer canvas {
+    position: absolute;
+}
+
+div#gameContainer[data-pixelated='true'] canvas {
+    image-rendering: optimizeSpeed;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}

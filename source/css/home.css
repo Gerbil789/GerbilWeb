@@ -1,0 +1,5 @@
+.background-img {
+    width: 100%; /* Set a fixed width */
+    height: auto;
+    border-radius: 5px; /* Optional: Add rounded corners to images */
+}

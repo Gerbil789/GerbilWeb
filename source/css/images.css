@@ -1,0 +1,9 @@
+
+
+
+
+.image-grid img {
+    width: 300px; /* Set a fixed width */
+    height: auto;
+    border-radius: 5px; /* Optional: Add rounded corners to images */
+}
